@@ -18,7 +18,6 @@ if (typeof web3 !== 'undefined') {
         var web3 = new Web3(new Web3.providers.HttpProvider('http://localhost:7545'));
 }
 
-
 mongodb.connect('mongodb://127.0.0.1:27017/blockchain-node', {
 		useUnifiedTopology: true,
 	}, 

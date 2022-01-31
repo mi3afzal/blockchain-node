@@ -10,6 +10,7 @@ function routes(app, db, accounts, contactList) {
 
 		response.json(cache);
 	});
+	
 }
 
 module.exports = routes
